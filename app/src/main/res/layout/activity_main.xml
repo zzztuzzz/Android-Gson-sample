@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_weight="10"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:id="@+id/container"
+            android:layout_weight="60"
+            android:orientation="vertical"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:id="@+id/device_image"
+                />
+
+            <TableLayout
+                android:paddingTop="10dp"
+                android:id="@+id/table"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Device:"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/device"
+
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="OS:"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/os"
+
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Chipset:"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/chipset"
+                        android:textSize="@dimen/abc_text_size_title_material"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+
+    <TextView
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+         android:layout_weight="30"
+        android:id="@+id/jsonview"
+        android:layout_gravity="bottom|center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nexus6やっぱほしいわ。"
+        android:autoLink="web"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10" />
+
+</LinearLayout>

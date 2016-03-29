@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-cf15e623494f066916f4baad1df7f317ceb3f317.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/classes-ea1b1a64fb961f6615d20806594ce2743dde40d0.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/okio-1.4.0-d3dfa28aef78b3a58a7a23b5d5e19ac993ce9cde.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/classes-795e4aff991c971892d987c40c1cc8d1a0a59236.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-b6e91994f504e640a3681f1e9932958d8d98c937.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-ca1657a32e6830b27b13f89be7d802abdddbb823.jar" />
+    </item>
+    <item
+        jar="/Users/teiyuueki/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/teiyuueki/Desktop/JSON_parsing/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-cf2a8157de450a28af3819e819c48ee5b755c7f4.jar" />
+    </item>
+
+</items>
